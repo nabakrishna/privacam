@@ -1,4 +1,4 @@
-# PrivaCam
+# privacam
 
 A real-time privacy masking system that uses instance segmentation to detect and blur sensitive objects (like phones, documents, or bottles) on a live camera feed. It includes a custom retro green-phosphor surveillance HUD. 
 
