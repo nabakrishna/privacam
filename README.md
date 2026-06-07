@@ -24,7 +24,7 @@ If you have an NVIDIA GPU, it is highly recommended to install the CUDA version 
 Start the app by running the main file:
 
 ```bash
-python main.py
+py -3.12 main.py (use py 3.12 version for better compatablity)
 ```
 
 ### Key-bindings
@@ -47,5 +47,3 @@ The code is split into specific modules so it's easy to tweak:
 ## Customization Notes
 
 By default, the system targets COCO classes for Bottles (39), Cell Phones (67), and Books (73 - used as a proxy for documents/paper). If you want to detect different items, just update the `SENSITIVE_CLASS_IDS` in `config.py`. 
-
-If the camera is struggling to detect items extremely close to the lens (like a piece of paper filling the whole screen), try lowering `DETECTION_CONFIDENCE` in the config file.
